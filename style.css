@@ -10,6 +10,7 @@ h1 {
 
 h2 {
   color: #231f35;
+  margin-top: 50px;
 }
 
 p {
@@ -54,16 +55,38 @@ p {
   color: #695e93;
 }
 
+/*haitari*/
+.accordion {
+  margin-top: 50px;
+}
+
+/*haitarin otsikoiden taustaväri*/
 .accordion-button {
   background-color: #d2d0e0;
 }
 
+.accordion-button:hover {
+  background-color: #695e93;
+}
+
+/*haitarin otsikoiden taustaväri avattuna*/
+.accordion-button:not(.collapsed) {
+  background-color: #695e93;
+  color: white;
+}
+
+/*taulukko*/
 .table {
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 
-/*haitari*/
-.accordion {
-  margin-top: 50px;
+/* Ajanvaraus painikkeet */
+.btn-primary {
+  background-color: #695e93;
+  border-color: #695e93;
+}
+
+.btn-primary:hover {
+  background-color: #453d62;
+  border-color: #453d62;
 }
