@@ -1,0 +1,69 @@
+body {
+  background-color: #fafafb;
+}
+
+h1 {
+  margin-top: 50px;
+  color: #453d62;
+  text-align: center;
+}
+
+h2 {
+  color: #231f35;
+}
+
+p {
+  color: #695e93;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.carousel-caption {
+  color: white;
+  background-color: rgba(35, 31, 53, 0.8); /* #231F35 */
+}
+
+.carousel {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin-top: 50px;
+  background-color: #d2d0e0;
+}
+
+.ruudukon-kuvat {
+  width: 100%;
+  max-width: 500px;
+  /* object-fit: cover;
+  object-position: top;  ohjaa rajauksen kohtaa */
+  border-radius: 30% 0 30% 0;
+}
+
+.card {
+  margin-top: 50px;
+}
+
+.card-text {
+  color: #695e93;
+}
+
+.accordion-button {
+  background-color: #d2d0e0;
+}
+
+.table {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*haitari*/
+.accordion {
+  margin-top: 50px;
+}
