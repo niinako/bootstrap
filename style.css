@@ -14,9 +14,9 @@ h2 {
 }
 
 p {
-  color: #695e93;
+  color: #453d62;
   font-family: verdana;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .carousel-caption {
@@ -24,6 +24,9 @@ p {
   background-color: rgba(35, 31, 53, 0.8); /* #231F35 */
 }
 
+.carousel-caption p {
+  color: white;
+}
 .carousel {
   max-width: 1200px;
   margin: 0 auto;
@@ -36,7 +39,12 @@ p {
 
 .container {
   margin-top: 50px;
+  padding: 10px;
   background-color: #d2d0e0;
+}
+
+.container p {
+  text-align: center;
 }
 
 .ruudukon-kuvat {
